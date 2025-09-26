@@ -29,9 +29,7 @@ Fake News Classifier — a machine-learning pipeline that classifies news articl
 
 **Project overview**
 
-This repo contains:
-
-a training script that:
+This repo contains a training script that:
 
   1.loads Real.csv and Fake.csv,
   
@@ -54,6 +52,7 @@ a training script that:
 
 
 
+
 **How to run (Training)**
 
 The script training.py (provided) implements the full pipeline. Example usage:
@@ -68,6 +67,7 @@ Example predict.py (simple loader & predictor). Create this file or use this sni
 
 import pickle
 import pandas as pd
+
 
 # Load saved pipeline (replace path as needed)
 with open('outputs/news_auth_model.pkl','rb') as f:
