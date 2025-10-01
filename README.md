@@ -84,3 +84,9 @@ proba = model.predict_proba(sample)  # if estimator supports predict_proba
 
 print('Prediction:', int(pred[0]))        # 1 -> real, 0 -> fake
 print('Confidence (real):', proba[0][1]) # probability for positive class
+
+# Heatmap of Confusion matrix of trained model on test dataset.
+![heatmap](https://github.com/user-attachments/assets/d7af0454-04e1-4395-9e65-a0dd4bcfe5d8)
+
+# Performance comparision bar graph of different models.
+![model_perf](https://github.com/user-attachments/assets/2ae7072c-b28d-4d68-95d1-b87ec55c7ff0)
